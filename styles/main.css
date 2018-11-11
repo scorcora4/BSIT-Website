@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 /* BODY STYLES */
+html, body{
+    margin: 0;
+    height: 100%;
+}
 body{
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -226,6 +230,9 @@ footer{
     border-bottom: #ffffff 3px solid;
 }
 
+
+
+
 /* ~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~ */
 @media(max-width: 768px){
     header #branding,
@@ -278,14 +285,21 @@ footer{
     color: #ffffff;
 }
     
+    html, body{
+    height: auto;
+}
+    
 }
 
-
+/* MEDIA QUERIES FOR LARGE 4K AND LARGER DISPLAYS */
+/*
 @media(min-width: 1920px){
     body {
         width: 1920px;
         margin: auto;
     }
+*/
+  @media(min-width: 1920px){
     
     #showcase {
         background-size: 100% ;
