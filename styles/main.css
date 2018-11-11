@@ -204,6 +204,13 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     margin-bottom: 5px;
 }
 
+/* STYLE FOR YOUTUBE ON ABOUT PAGE */
+.youtube {
+    padding-top: 3px;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
 
 /* STYLES FOR main-col */
 article#main-col{
