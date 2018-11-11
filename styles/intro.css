@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* RESET THE PAGE ALIGNMENT */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* STYLE FOR THE INTRO CLASS section (background full screen image)*/
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(../img/bg2_compressed.JPG) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+/* STYLE FOR THE INNER CLASS IN INTRO CLASS (display content as table overlapping on image align on the page) */
+.intro .inner {
+    display: table-cell;
+    vertical-align: top;
+    width: 100%;
+    max-width: none;
+}
+
+/* STYLE FOR THE CLASS ACTING AS PSEUDO FOOTER (display content as table row overlapping bottom of image) */
+.intro .inner2 {
+    margin: 0;
+    display: table-row;
+    height: 10px;
+    vertical-align: bottom;
+    width: 100%;
+    max-width: none;
+    
+}
+
+/* STYLE PSEUDO FOOTER FONT*/
+.inner2 p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%;
+    text-align: center;
+}
+
+/* STYLE FOR THE content CLASS (content overlapping on image) */
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* STYLE FOR THE TEXT H1 HEADING*/
+.content h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 3px 5px 10px #11346d;
+    font-size: 400%;
+    margin-bottom: auto;
+}
+.content h2 {
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 3px 5px 10px #11346d;
+    font-size: 200%;
+}
+
+/* STYLE FOR THE BUTTON*/
+.btn {
+    border-radius: 12px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: bolder;
+    padding: .25em;
+    border: solid #ffffff 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+/* STYLE FOR THE BUTTON ON MOUSE HOVER*/
+.btn:hover{
+    color: #5c7ad6;
+    border: solid #5c7ad6 3px;
+    background: #ffffff;
+}
