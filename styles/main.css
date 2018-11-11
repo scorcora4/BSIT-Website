@@ -3,11 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 /* BODY STYLES */
+
 html, body{
     margin: 0;
     height: 100%;
     overflow: auto;
 }
+
 body{
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -297,12 +299,16 @@ footer p{
     background: url('../img/keyboard_backlight-1920x1280.jpg') no-repeat   0 -600px;
     text-align: center
     color: #ffffff;
-}
+    }
     
     html, body{
     height: auto;
-}
+    }
     
+    footer p{
+    margin-top: 2.5em;
+    font-size: 12px
+    }
 }
 
 /* MEDIA QUERIES FOR LARGE 4K AND LARGER DISPLAYS */
