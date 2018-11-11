@@ -6,6 +6,7 @@
 html, body{
     margin: 0;
     height: 100%;
+    overflow: auto;
 }
 body{
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -163,11 +164,11 @@ header a:hover{
     float:left;
     width: 30%;
     padding: 10px;
-    text-align: center;
+    text-align: center;    
 }
 
 #boxes .box img{
-    width: 90px;
+    width: auto;
 }
 
 
@@ -202,8 +203,6 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 
-
-
 /* STYLES FOR main-col */
 article#main-col{
     float: left;
@@ -220,17 +219,32 @@ ul#services li{
     background: #e6e6e6;
 }
 
-/* STYLES FOR FOOTER */
-footer{
-    padding: 20px;
-    margin-top: 20px;
+/* STYLES FOR STICKY FOOTER */
+#content_wrapper{
+    min-height:100%;
+    position:relative;
+}
+
+#page_content {
+    padding-bottom:80px;
+}
+
+footer {
     color: #ffffff;
     background-color: #5c7ad6;
     text-align: center;
-    border-bottom: #ffffff 3px solid;
+    border-top: #ffffff 3px solid;
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:0;
 }
 
-
+footer p{
+    margin-top: 1.5em;
+    font-size: 18px
+}
 
 
 /* ~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~ */
@@ -292,19 +306,10 @@ footer{
 }
 
 /* MEDIA QUERIES FOR LARGE 4K AND LARGER DISPLAYS */
-/*
-@media(min-width: 1920px){
-    body {
-        width: 1920px;
-        margin: auto;
-    }
-*/
   @media(min-width: 1920px){
-    
     #showcase {
-        background-size: 100% ;
+        background-size: 100%;
     }
-    
 }
 
 
