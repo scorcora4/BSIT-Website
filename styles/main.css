@@ -1,14 +1,21 @@
-/*IMPORTING CUSTOM FONS*/
+/*IMPORTING CUSTOM FONTS*/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+ 
+/* SCROLLING SUPPORT INCLUDES IOS DEVICES */
+.scrolling-content {
+   overflow-y: scroll;
+   -webkit-overflow-scrolling: touch;
+   height:100%; /*A value other than height:auto needs to be set*/
+}
 
 /* BODY STYLES */
-
 html, body{
     margin: 0;
     height: 100%;
     overflow: auto;
 }
+
 
 body{
     font-family: 'Oswald', Arial, Helvetica, sans-serif;
