@@ -5,7 +5,7 @@
 
 
 
-/* BODY STYLES */
+/* BODY STYLES -----------------------------------*/
 html, body{
     margin: 0;
     height: 100%;
@@ -19,7 +19,6 @@ body{
     line-height: 1.5;
     padding: 0;
     margin: 0;
-    /* background-color: #f4f4f4; */
     background: -webkit-linear-gradient(top, rgba(20,87,164,1) 0%,rgba(118,187,240,0) 100%);
     background: -moz-linear-gradient(top, rgba(20,87,164,1) 0%, rgba(118,187,240,0) 100%);
     background: linear-gradient(to bottom, rgba(20,87,164,1) 0%,rgba(118,187,240,0) 100%);
@@ -43,7 +42,6 @@ ul{
 
 .button_1{
     height: 38px;
-    /*background: #003399;*/
     background: #5c7ad6;
     border: 0;
     padding-left: 20px;
@@ -54,7 +52,6 @@ ul{
 
 .dark{
     padding: 15px;
-    /*background: #35424a;*/
     background: #0b254f;
     color: #ffffff;
     margin-top: 10px;
@@ -63,7 +60,7 @@ ul{
 }
 
 
-/* HEADER STYLES */
+/* HEADER STYLES -----------------------------------*/
 header{
     background: #5c7ad6;
     color: #ffffff;
@@ -110,20 +107,17 @@ header .highlight, header .current a:hover{
 }
 
 header a:hover{
-    /*color: #cccccc;*/
     font-weight:bold;
 }
 
 
 
-/* SHOWCASE STYLES */
+/* SHOWCASE STYLES -----------------------------------*/
 #showcase{
     min-height: 400px;
     background: url('../img/keyboard_backlight-1920x1280.jpg') no-repeat 0;
     text-align: center;
     color: #ffffff;
-    /*background-size: 100%;
-    background-size:contain;*/
     border-bottom: #ffffff 3px solid;
 }
 
@@ -138,13 +132,11 @@ header a:hover{
 }
 
 
-/* NEWSLETTER STYLES */
+/* NEWSLETTER STYLES -----------------------------------*/
 #newsletter{
     padding: 15px;
     color: #ffffff;
-    /*background: #35424a;*/
     background: #0b254f;
-    /*border-top: #ffffff 3px solid;*/
     border-bottom: #ffffff 3px solid;
 }
 
@@ -163,7 +155,7 @@ header a:hover{
     width: 250px;
 }
 
-/* STYLES FOR BOXES */
+/* STYLES FOR BOXES --------------------------------------*/
 #boxes{
     margin-top: 20px;
 }
@@ -172,15 +164,27 @@ header a:hover{
     float:left;
     width: 30%;
     padding: 10px;
-    text-align: center;    
+    text-align: center; 
+    opacity: .8; 
 }
 
 #boxes .box img{
     width: auto;
+    border: 0;
+}
+
+#boxes .box a, #boxes .box p, #boxes .box h3{
+    text-decoration: none;
+    color: #000000;
+}
+
+#boxes .box:hover{
+    opacity: 1;
 }
 
 
-/* STYLES FOR SIDEBAR */
+
+/* STYLES FOR SIDEBAR -----------------------------------*/
 aside#sidebar{
     float: right;
     width: 30%;
@@ -193,11 +197,10 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 
-/* STYLE FOR SIDEBAR TRACK NAV ON ABOUT PAGE */
+/* STYLE FOR SIDEBAR TRACK NAV ON ABOUT PAGE------------ */
 .sidebar_track_nav a{
     color: #ffffff;
     text-decoration: none;
-    /*text-transform: uppercase;*/
     font-size: 14px;
     margin-left: 1em;
 }
@@ -210,14 +213,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     margin-bottom: 5px;
 }
 
-/* STYLE FOR YOUTUBE ON ABOUT PAGE */
-/*
-.youtube {
-    padding-top: 3px;
-    margin: auto;
-    margin-bottom: 1em;
-}
-*/
+/* STYLE FOR YOUTUBE ON ABOUT PAGE ---------------------*/
 .iframe-container{
   position: relative;
   width: 100%;
@@ -233,15 +229,15 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 
-/* STYLES FOR main-col */
+/* STYLES FOR main-col --------------------------------*/
 article#main-col{
     float: left;
     width: 65%;
 }
 
 
-/* STYLES FOR SERVICES */
-ul#services li{
+/* STYLES FOR individual-tracks --------------------------------*/
+ul#individual-tracks li{
     list-style: none;
     padding: 20px;
     border: #cccccc solid 1px;
@@ -249,7 +245,7 @@ ul#services li{
     background: #e6e6e6;
 }
 
-/* STYLES FOR STICKY FOOTER */
+/* STYLES FOR STICKY FOOTER --------------------------*/
 #content_wrapper{
     min-height:100%;
     position:relative;
@@ -277,7 +273,7 @@ footer p{
 }
 
 
-/* ~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~ */
+/* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
 @media(max-width: 768px){
     header #branding,
     header nav,
