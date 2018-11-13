@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
  
 /* SCROLLING SUPPORT INCLUDES IOS DEVICES */
-.scrolling-content {
+body {
    overflow-y: scroll;
    -webkit-overflow-scrolling: touch;
    height:100%; /*A value other than height:auto needs to be set*/
