@@ -347,6 +347,10 @@ footer p{
     margin-top: 2.5em;
     font-size: 12px
     }
+    
+    .boxes a, .boxes a:vistied, .boxes a:hover, .boxes a:active, .boxes a:visited, .boxes a:focus{
+        text-decoration: none;
+    }
 }
 
 /* MEDIA QUERIES FOR LARGE 4K AND LARGER DISPLAYS */
