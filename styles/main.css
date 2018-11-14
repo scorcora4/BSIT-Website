@@ -182,6 +182,11 @@ header a:hover{
     opacity: 1;
 }
 
+#boxes .box:visited{
+    text-decoration: none;
+    color: #000000;
+}
+
 
 
 /* STYLES FOR SIDEBAR -----------------------------------*/
