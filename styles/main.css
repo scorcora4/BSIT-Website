@@ -348,7 +348,7 @@ footer p{
     font-size: 12px
     }
     
-    .boxes a, .boxes a:vistied, .boxes a:hover, .boxes a:active, .boxes a:visited, .boxes a:focus{
+    .boxes{
         text-decoration: none;
     }
 }
