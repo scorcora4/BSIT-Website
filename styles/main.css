@@ -253,6 +253,7 @@ aside#sidebar-map{
 article#main-col{
     float: left;
     width: 65%;
+    padding-bottom: 2em;
 }
 
 
@@ -273,6 +274,9 @@ ul#individual-tracks li{
     opacity: 1;
 }
 
+section#main{
+    padding-bottom: 2em;
+}
 
 /* STYLES FOR STICKY FOOTER --------------------------*/
 #content_wrapper{
