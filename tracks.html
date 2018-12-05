@@ -8,7 +8,15 @@
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="UMASS Boston BSIT Program at the College of Management">
         <meta name="keywords" content="Information Technology, UMASS Boston, BSIT, Bachelor Degree IT">
-        <meta name="author" content="Sean Corcoran">   
+        <meta name="author" content="Sean Corcoran">
+        <link rel="stylesheet" href="styles/slicknav.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	   });
+        </script>
 	</head>
     
 	<body>
@@ -19,7 +27,8 @@
                         <div id="branding">
                             <h1><span class="highlight">UMB</span> College of Management</h1>
                         </div>
-                        <nav>
+                        <nav id="mobile_menu"></nav>
+                        <nav id="nav_menu">
                             <ul>
                                 <li><a href="index2.html">Home</a></li>    
                                 <li><a href="about.html">About</a></li>

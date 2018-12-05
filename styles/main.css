@@ -91,7 +91,7 @@ header #branding h1{
     margin: 0;
 }
 
-header nav{
+header #nav_menu{
     float: right;
     margin-top: 10px;
 }
@@ -319,7 +319,7 @@ footer p{
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
 @media(max-width: 768px){
     header #branding,
-    header nav,
+    header #nav_menu,
     header li,
     #newsletter h1,
     #newsletter form,
@@ -332,19 +332,30 @@ footer p{
         width: 100%;
     }
     
-    @media(max-width: 768px){
-        #mobile_showcase{
+    #mobile_showcase{
             font-size: 40px;
             margin: ;
             padding: 0;
-        }   
-    }
+    }   
     
     header{
         padding-bottom: 20px;
     }
     
     /* Stack Menu on Mobile */
+    /*~~~~~Show the Mobile Menu & hide main menu~~~~~*/
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    
+    
+    .slicknav_menu{
+        background-color: #800000 !important;
+    }
+    
    
     
     #showcase h1{
