@@ -317,6 +317,9 @@ footer p{
 
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
+#mobile_menu {
+        display: none;
+    }
 @media(max-width: 768px){
     header #branding,
     header #nav_menu,
@@ -344,6 +347,7 @@ footer p{
     
     /* Stack Menu on Mobile */
     /*~~~~~Show the Mobile Menu & hide main menu~~~~~*/
+    
     #nav_menu {
         display: none;
     }
@@ -351,9 +355,9 @@ footer p{
         display: block;
     }
     
-    
     .slicknav_menu{
-        background-color: #800000 !important;
+        
+        background-color: #5c7ad6 !important;
     }
     
    

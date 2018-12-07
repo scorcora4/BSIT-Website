@@ -4,11 +4,20 @@
 		<meta charset="UTF-8">
 		<title>Welcome | UMB BSIT at College of Management</title>
         <link rel="shortcut icon" href="img/favicon.gif">
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/main-test.css">
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="UMASS Boston BSIT Program at the College of Management">
         <meta name="keywords" content="Information Technology, UMASS Boston, BSIT, Bachelor Degree IT">
-        <meta name="author" content="Sean Corcoran">   
+        <meta name="author" content="Sean Corcoran">
+        <link rel="stylesheet" href="styles/slicknav.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	   });
+        </script>
 	</head>
     
 	<body>
@@ -19,16 +28,13 @@
                         <div id="branding">
                             <h1><span class="highlight">UMB</span> College of Management</h1>
                         </div>
-                        <nav>
+                        <nav id="mobile_menu"></nav>
+                        <nav id="nav_menu">
                             <ul>
-                                <div class="top_nav">
-                                    <li class="current"><a href="index2.html">Home</a></li>    
-                                    <li><a href="about.html">About</a></li>
-                                </div>
-                                    <div class="bottom_nav">
-                                    <li><a href="tracks.html">BSIT Tracks</a></li>
-                                    <li><a href="signup.html">Sign Up</a></li>
-                                </div>
+                                <li class="current"><a href="index2.html">Home</a></li>    
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="tracks.html">BSIT Tracks</a></li>
+                                <li><a href="#">Sign Up</a></li>
                             </ul>                
                         </nav>        
                     </div>
@@ -36,17 +42,17 @@
 
                 <section id="showcase">
                     <div class="container">
-                        <h1><span id="mobile_showcase">Invest In Your Future Today!</span></h1>
-                        <p>UMASS Boston and the College of Management offer a wonderful educational opportunity in a diverse range of Information Technology studies. Investing in an Information Technology Bachelors Degree is an investment that is sure to pay lasting dividends in life! Take a dive into just some of what UMASS Boston and the College of Management have to offer.</p>
+                        <h1><span id="mobile_showcase">Join us at the College of Management</span></h1><h2>
+                        Make an Investment Into Your Future Today!</h2><p>UMASS Boston and the College of Management offer a wonderful educational opportunity in a diverse range of Information Technology studies. Investing in an Information Technology Bachelors Degree is an investment that is sure to pay lasting dividends in life! Take a dive into just some of what UMASS Boston and the College of Management have to offer.</p>
                     </div>
                 </section>
 
                 <section id="newsletter">
                     <div class="container">
-                        <h1>Subscribe To Our Newsletter</h1>
+                        <h1>Receive Email Updates from the College of Management Today!</h1>
                         <form>
-                            <input type="email" placeholder="Enter Email...">
-                            <button type="submit" class="button_1">Subscribe</button>
+                            <input type="email" placeholder="Enter Your Email Address Here...">
+                            <button type="submit" class="button_1">Submit</button>
                         </form>
                     </div>
                 </section>
