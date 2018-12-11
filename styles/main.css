@@ -315,6 +315,17 @@ footer p{
     font-size: 18px
 }
 
+/* ~~~~~~~~~~~~~~~~ SIGN UP PAGE ~~~~~~~~~~~~~~~~~ */
+#step_one .quote{
+    width: 95%;
+    margin-top: 10px;
+}
+
+#step_one .quote input, #step_one .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
 #mobile_menu {

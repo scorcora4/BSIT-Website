@@ -236,9 +236,12 @@ footer p{
 
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
+#mobile_menu {
+        display: none;
+    }
 @media(max-width: 768px){
     header #branding,
-    header nav,
+    header #nav_menu,
     header li,
     #newsletter h1,
     #newsletter form,
@@ -251,19 +254,31 @@ footer p{
         width: 100%;
     }
     
-    @media(max-width: 768px){
-        #mobile_showcase{
+    #mobile_showcase{
             font-size: 40px;
             margin: ;
             padding: 0;
-        }   
-    }
+    }   
     
     header{
         padding-bottom: 20px;
     }
     
     /* Stack Menu on Mobile */
+    /*~~~~~Show the Mobile Menu & hide main menu~~~~~*/
+    
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+    
+    .slicknav_menu{
+        
+        background-color: #5c7ad6 !important;
+    }
+    
    
     
     #showcase h1{
@@ -310,9 +325,6 @@ footer p{
         background-size: 100%;
     }
 }
-
-
-
 
 
 
