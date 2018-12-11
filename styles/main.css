@@ -326,6 +326,16 @@ footer p{
     padding: 5px;
 }
 
+#step_two .quote{
+    width: 95%;
+    margin-top: 10px;
+}
+
+#step_two .quote input, #step_two .quote textarea{
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
 #mobile_menu {
