@@ -316,6 +316,11 @@ footer p{
 }
 
 /* ~~~~~~~~~~~~~~~~ SIGN UP PAGE ~~~~~~~~~~~~~~~~~ */
+#step_two h3{
+    font-size: 130%;
+    font-variant-caps: small-caps
+}
+
 #step_one .quote{
     width: 95%;
     margin-top: 10px;
@@ -336,6 +341,35 @@ footer p{
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
+
+#step_two label, input, select {
+	font-size: 90%;
+}
+
+#step_two label {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+#step_two input, #step_two select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+
+#step_two input:required, #step_two input[required] input:invalid {
+	border: 2px solid #5c7ad6;
+}
+
+#step_two input:valid {
+	border: 1px solid black;
+}
+
+#step_two input:invalid {
+	box-shadow: none;
+}
+
 
 /* ~~~~~~~~~~~~~~~~ MEDIA QUERIES | MOBILE RESPONSIVE ~~~~~~~~~~~~~~~~~ */
 #mobile_menu {
