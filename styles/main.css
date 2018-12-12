@@ -155,13 +155,6 @@ header a:hover{
     width: 250px;
 }
 
-#newsletter img {
-	margin-left: 8px;
-	margin-top: 1.25%;
-
-	
-}
-
 .main_logo img{
     float: left;
     max-height: auto;
@@ -352,6 +345,12 @@ footer {
 footer p{
     margin-top: 1.5em;
     font-size: 18px
+}
+
+footer img {
+	margin-left: 8px;
+	margin-top: 1%;
+	
 }
 
 /* ~~~~~~~~~~~~~~~~ SIGN UP PAGE ~~~~~~~~~~~~~~~~~ */
